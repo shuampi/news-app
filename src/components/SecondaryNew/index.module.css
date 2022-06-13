@@ -1,0 +1,28 @@
+.image{
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.container{
+  
+    max-width: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+@media screen and (max-width: 750px) {
+.container{ 
+    
+    max-width: 100%;
+    gap:0.3rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.image{
+    max-width: 90%;
+    max-height: 10%;
+}
+
+
+
+}

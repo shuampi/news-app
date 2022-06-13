@@ -1,0 +1,25 @@
+.news{
+    display: flex;
+    justify-content: space-around;
+}
+.topic{
+    margin-left: 2rem;
+}
+/* .one{
+flex-grow: 1;
+}
+.two{
+flex-grow: 1;
+}
+.three{
+flex-grow: 1;
+}
+.four{
+ flex-grow: 1;   
+} */
+@media screen and (max-width: 750px){
+
+    .news{
+        display: block;
+    }
+}

@@ -1,0 +1,39 @@
+.secondaryNews{
+    max-width: 50%;
+    margin: 0;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+  
+}
+.firstLine{
+
+display: flex;
+}
+.secondLine{
+  
+    display: flex;
+}
+
+@media screen and (max-width: 750px) {
+   .container{
+    display:  block;
+   }
+   .secondaryNews{
+    max-width: 100%;
+    margin: 0;
+    display: block;
+}
+.firstLine{
+   
+    display: block;
+    } 
+    .secondLine{
+       
+        display: block;
+    }
+  
+  }

@@ -1,0 +1,85 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+#hamburgerInput{
+    display: none;
+  }
+
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Cabin', Sans-serif; */
+    background: linear-gradient(
+      to bottom, 
+      #FF5D5D, #FF5D5D 20%, 
+      #f5f5f5 20%, #f5f5f5 40%, 
+      #FF5D5D 40%, #FF5D5D 60%, 
+      #f5f5f5 60%, #f5f5f5 80%, 
+      #FF5D5D 80%, #FF5D5D 100%
+    );
+}
+.menu .sidebar {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #FF5D5D;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.menu h3 {
+    color: #B9FAF8;
+    font-size: 2.2rem;
+  }
+  .menu ul {
+    padding-left: 0px;
+  }
+ .menu li {
+    list-style-type: none;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+  .menu a:hover {
+   
+    background-color: #f5f5f5;
+  }
+
+#hamburgerInput:checked + .menu .sidebar {
+    visibility: visible;
+    left: 0;
+}
+#hamburgerInput:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+@media screen and (max-width: 750px) {
+    /* #main-menu {
+      display: none;
+    } */
+    .menu {
+      display: inline;
+    }
+  }
+
+
+  
