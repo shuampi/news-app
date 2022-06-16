@@ -54,7 +54,7 @@ const NavBar = ({ handelSearch, handleClick, search }: NavBarProps) => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/science">
             <a className={style.links}>Science</a>
           </Link>
         </li>
