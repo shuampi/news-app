@@ -49,7 +49,7 @@ const NavBar = ({ handelSearch, handleClick, search }: NavBarProps) => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/technology">
             <a className={style.links}>Technology</a>
           </Link>
         </li>
