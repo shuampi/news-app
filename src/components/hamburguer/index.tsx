@@ -14,7 +14,7 @@ const Hamburguer = () => {
       <li><Link href="/business"><a>Business</a></Link></li>
       <li><Link href="/technology"><a>Technology</a></Link></li>
       <li><Link href="/science"><a>Science</a></Link></li>
-      <li><Link href="/"><a>Entertainment</a></Link></li>
+      <li><Link href="/entertainment"><a>Entertainment</a></Link></li>
     </ul>
   </nav>
 </label>
