@@ -10,7 +10,7 @@ const Hamburguer = () => {
     <h3>Menu</h3>
     <ul>
       <li><Link href="/"><a>Home</a></Link></li>
-      <li><Link href="/"><a>International</a></Link></li>
+      <li><Link href="/international"><a>International</a></Link></li>
       <li><Link href="/business"><a>Business</a></Link></li>
       <li><Link href="/"><a>Technology</a></Link></li>
       <li><Link href="/"><a>Science</a></Link></li>
