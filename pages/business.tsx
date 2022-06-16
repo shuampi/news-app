@@ -19,7 +19,7 @@ interface HomeProps {
   businessNews:any
 }
 
-const API_KEY = process.env.NEXT_PUBLIC_KEY
+const API_KEY = process.env.NEXT_PUBLIC_KEY_ONE
 
 const Business = ({handelSearch, handleClick,search, breakingNews,sportsNews}:HomeProps) => {
 

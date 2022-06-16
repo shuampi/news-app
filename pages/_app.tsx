@@ -6,7 +6,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import {useState} from "react"
 
-const API_KEY= process.env.NEXT_PUBLIC_KEY
+const API_KEY= process.env.NEXT_PUBLIC_KEY_ONE
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [newsFound, setNewsFound] = useState([])
