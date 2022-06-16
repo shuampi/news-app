@@ -1,7 +1,7 @@
 # NEWS APP
 The app is live and you can visit it at the next link:
 
-## [https://shuampi-news.netlify.app/](https://shuampi-news.netlify.app/)
+## [https://shuampiews.netlify.app](https://shuampiews.netlify.app)
 
 ## Documentation
 ### Planning.
